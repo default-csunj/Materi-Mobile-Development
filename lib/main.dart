@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:materi/materi/pertemuan1.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -14,16 +15,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Test(),
+      home: const Pertemuan1Pages(),
     );
   }
 }
 
-class Test extends StatelessWidget {
-  const Test({Key? key}) : super(key: key);
 
-  @override
-  Widget build(BuildContext context) {
-    return const Scaffold(body: Center(child: Text("test app")));
-  }
-}
