@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:materi/Pertemuan1/stflwdgt.dart';
-import 'package:materi/Pertemuan1/stlswdgt.dart';
+// import 'package:materi/UI/Pertemuan1/stflwdgt.dart';
+// import 'package:materi/UI/Pertemuan1/stlswdgt.dart';
+import 'package:materi/UI/Pertemuan2/template.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,10 +15,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.orange,
-
-        /// Explain All the Colors Widget
       ),
-      home: stfl(),
+      home: Home(),
     );
   }
 }
